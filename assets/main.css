@@ -1,0 +1,75 @@
+div.page-wrapper {
+  padding: 1.5em;
+  padding-top: 0;
+}
+
+.sidebar {
+  margin-left: 4.5em;
+}
+
+header {
+  width: 100%;
+  height: 21em;
+  background-image: url("innovazioni-tecnologiche.jpg");
+  background-size: cover;
+  padding: 1.5em;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+.summary {
+  padding: 1.5em;
+}
+
+body {
+  background-image: linear-gradient(#18394C, #1B4053, #4A6A7F, #8FB1CD);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+div.page-wrapper {
+  color: white;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+div.page-wrapper h3 {
+  text-decoration: underline;
+}
+div.page-wrapper > div {
+  padding: 1.5em;
+}
+div.page-wrapper .intro > div {
+  padding: 1.5em;
+}
+div.page-wrapper .intro .preamble {
+  margin-top: 1.5em;
+  position: relative;
+  top: 8em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+div.page-wrapper .intro .summary {
+  z-index: 1;
+  position: absolute;
+  top: 13em;
+}
+div.page-wrapper #zen-supporting {
+  position: relative;
+  margin-top: 5em;
+}/*# sourceMappingURL=main.css.map */
